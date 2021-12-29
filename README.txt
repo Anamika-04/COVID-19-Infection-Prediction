@@ -1,0 +1,5 @@
+This project aims to predict whether a person is infected with COVID-19 or not based on the COVID-19 dataset taken from Data World. The data used is a medium dataset having 2,78,848 rows and 10 columns containing information like whether a person has sore throat or cough or any other symptoms. It contains some additional information as well.
+
+I loaded the dataset, checked for its missing values and restructured the data as per the need. I used the label encoding technique to encode the categorical values hence making it ready for the modelling part.
+
+I've applied Logistic Regression as my base model. To explore the accuracy scope further, I've later applied multiple classification models like KNN, Support Vector Classifier, Decision Tree Classifier, Random Forest Classifier, Gradient Boosting Classifier. Finally, I achieved the highest accuracy of 96% with Support Vector Classifier.
